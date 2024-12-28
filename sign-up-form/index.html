@@ -7,6 +7,48 @@
     <link rel="style-sheet" href="styles/styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="sidebar">
+            <img src="assets/halie-west-25xggax4bSA-unsplash.jpg" alt="Picture of jungle leaves">
+            <div class="sidebar-spanner">
+                <img src="assets/odin-lined.png" alt="Picture of Odin">
+                <div class="sidebar-text">ODIN</div>
+            </div>
+        </div>
+        <div class="content">
+            <p>
+                This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up <em>now</em> to get started.
+                <br>
+                You <em>know</em> you want to. 
+            </p>
+            <form action="https://httpbin.org/post" method="post">
+                <div class="form-popout">
+                    <div class="form-text">Let's do this!</div>
+                    <div class="row">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                    <div class="row">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="phone_num">Phone Number</label>
+                        <input type="text" name="phone_num" id="phone_num">
+                    </div>
+                    <div class="row">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <label for="password_confirm">Confirm Password</label>
+                        <input type="password" name="password_confirm" id="password_confirm">
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <div class="login-text">Alread have an account? <a>Log in</a></div>
+        </div>
+    </div>
 </body>
 </html>
