@@ -26,28 +26,40 @@
             <form action="https://httpbin.org/post" method="post">
                 <div class="form-popout">
                     <div class="form-text">Let's do this!</div>
-                    <div class="row">
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" name="first_name">
-                        <label for="last_name">Last Name</label>
-                        <input type="text" name="last_name" id="last_name">
-                    </div>
-                    <div class="row">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                        <label for="phone_num">Phone Number</label>
-                        <input type="text" name="phone_num" id="phone_num">
-                    </div>
-                    <div class="row">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
-                        <label for="password_confirm">Confirm Password</label>
-                        <input type="password" name="password_confirm" id="password_confirm">
+                    <div class="form-rows">
+                        <div class="column">
+                            <div>
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+                        </div>
+                        <div class="column">    
+                            <div>
+                                <label for="last_name">Last Name</label>
+                                <input type="text" name="last_name" id="last_name">
+                            </div>
+                            <div>
+                                <label for="phone_num">Phone Number</label>
+                                <input type="text" name="phone_num" id="phone_num">
+                            </div>
+                            <div>
+                                <label for="password_confirm">Confirm Password</label>
+                                <input type="password" name="password_confirm" id="password_confirm">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button type="submit">Create Account</button>
             </form>
-            <div class="login-text">Alread have an account? <a>Log in</a></div>
+            <div class="login-text">Already have an account? <a href="">Log in</a></div>
         </div>
     </div>
 </body>
