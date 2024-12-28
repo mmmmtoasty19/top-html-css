@@ -3,5 +3,4 @@
 Repo to store various projects and exercises from The Odin Project CSS and HTML courses
 
 Projects:
-[Sign-up](sign-up-form/index.html)
-- Sign-up Form
+- [Sign-up](sign-up-form/index.html)
