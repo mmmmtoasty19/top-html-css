@@ -19,9 +19,28 @@ body {
     display: grid;
     background-color: var(--blue);
     /* justify-items: center; */
-    grid-template-columns: 1fr;
+    gap: 50px;
 }
 
+.logo {
+    margin-top: 10px;
+}
+
+.nav-extra {
+    margin-bottom: 10px;
+}
+
+
+/* .header {
+    display: grid;
+    grid-template-columns: 1fr;
+} */
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
 
 
 .content {
